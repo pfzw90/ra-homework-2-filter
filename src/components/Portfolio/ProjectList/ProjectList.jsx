@@ -3,7 +3,6 @@ import React from 'react'
 export default class ProjectList extends React.Component {
  
     render() {
-        console.log(this.props)
         return(
             <div className = 'ProjectList'> 
                 {this.props.projects.map((project)=> 
