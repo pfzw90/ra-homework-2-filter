@@ -21,10 +21,10 @@ export default class Portfolio extends React.Component {
 
 
     render() { 
-        return(
+        return (
         <div className="Portfolio">
-        <Toolbar  filters={this.state.filters}  selected={this.state.selected}  onSelectFilter={this.onSelectFilter.bind(this)}/>
-        <ProjectList projects={this.state.projects}/>
+            <Toolbar filters={this.state.filters}  selected={this.state.selected}  onSelectFilter={this.onSelectFilter.bind(this)}/>
+            <ProjectList projects={this.state.projects}/>
         </div>
         ) 
     }
